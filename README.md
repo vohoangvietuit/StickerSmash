@@ -1,50 +1,71 @@
-# Welcome to your Expo app 👋
+## About This Demo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+- Creating an app with TypeScript enabled using the default template.
+- Implementing a two-screen bottom tabs layout with Expo Router.
+- Structuring the app layout with flexbox.
+- Using system UI to select images from the media library.
+- Building a sticker modal using `<Modal>` and `<FlatList>` components from React Native.
+- Adding touch gestures for interacting with stickers.
+- Capturing and saving screenshots with third-party libraries.
+- Managing platform differences between Android, iOS, and web.
+- Configuring a status bar, splash screen, and app icon.
 
-## Get started
+---
 
-1. Install dependencies
+This is an [Expo](https://expo.dev) project created using [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-   ```bash
-   npm install
-   ```
+## Getting Started
 
-2. Start the app
+### 1. Install Dependencies
 
-   ```bash
-    npx expo start
-   ```
+Run the following command to install the required dependencies:
 
-In the output, you'll find options to open the app in a
+```bash
+npm install
+```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 2. Start the App
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Launch your app by running:
 
-## Get a fresh project
+```bash
+npx expo start
+```
 
-When you're ready, run:
+In the development server's output, you'll have options to open your app in:
+
+- A [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- An [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- An [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a lightweight app for testing Expo projects
+
+### Start Developing
+
+You can begin development by editing files inside the **app** directory. This project leverages [file-based routing](https://docs.expo.dev/router/introduction) for navigation.
+
+## Resetting the Project
+
+If you want to reset the project and start fresh, run:
 
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This command will:
 
-## Learn more
+- Move the current starter code to the **app-example** directory.
+- Create a new blank **app** directory for your development.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Learn More
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+To deepen your understanding of Expo, check out the following resources:
 
-## Join the community
+- [Expo Documentation](https://docs.expo.dev/): Explore fundamentals and dive into advanced topics through [guides](https://docs.expo.dev/guides).
+- [Learn Expo Tutorial](https://docs.expo.dev/tutorial/introduction/): A step-by-step guide to building a project that works on Android, iOS, and the web.
 
-Join our community of developers creating universal apps.
+## Join the Community
+
+Become part of the vibrant Expo developer community:
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [Expo Discord Community](https://chat.expo.dev): Connect with other developers, ask questions, and share knowledge.
